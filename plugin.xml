@@ -18,6 +18,7 @@
                 <param name="android-package" value="com.gumba.cordova.plugin.printer.ZebraPrinter"/>
             </feature>
         </config-file>
+        <lib-file src="src/android/libs/ZSDK_ANDROID_API.jar"/>
         <source-file src="src/android/ZebraPrinter.java" target-dir="src/com/gumba/cordova/plugin/printer" />
     </platform>
 
